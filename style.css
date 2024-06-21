@@ -1,0 +1,64 @@
+table{
+    width: 500px;
+    text-align: left;
+    border: 1px solid red;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: red;
+    margin: 0 auto 50px;
+ }
+ 
+ tr, td, th{
+     height: 40px;
+     border: 1px solid red;
+     border-radius: 5px;
+     background-color: rgb(245, 225, 225);
+ }
+ 
+ td:hover,tr:hover{
+     background-color: darkred;
+     color: white;
+     transition: linear 0.5s;
+ }
+
+ .del-btn{
+    height: 30px;
+    background-color: red;
+    border: 1px solid red;
+    border-radius: 5px;
+    color: white;
+ }
+
+ .btn-add{
+    width: 100px;
+    height: 40px;
+    font-size: 18px;
+    margin: 0 35.5%;
+    background-color: red;
+    color: white;
+    border: 1px solid red;
+    border-radius: 5px;
+ }
+
+ #modal,  #modalEdit{
+    position:fixed;
+    top: 100px; 
+    left: 35%;
+    width: 440px;
+    height:fit-content;
+    background-color: rgb(192, 192, 216);
+    box-sizing: border-box;
+    padding: 40px;
+    border-radius: 10px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+
+ input,select{
+    width: 200px;
+    height: 30px;
+    margin-bottom: 20px;
+ }
+
+ label{
+    width: 100px;
+    margin: 20px;
+ }
